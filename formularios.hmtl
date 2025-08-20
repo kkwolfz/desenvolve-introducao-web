@@ -1,11 +1,11 @@
 <!DOCTYPE html>
-<html>
+<html> 
 
-<head>
+ <head>
   <title>Fomulário de pesquisa</title>
-</head>
+ </head>
 
-<body>
+ <body>
     <h1>Formulário de satisfação</h1>
 
     <form method="post" actions="processos-pesquisa,html">
@@ -88,6 +88,7 @@
         </section>
         <input type="submit" value="Enviar"/>
     </form>
-</body>
+ </body>
 
 </html>
+

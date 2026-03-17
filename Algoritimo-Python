@@ -1,0 +1,34 @@
+Solução dissertativa:
+
+Entrada de dados:
+
+Solicitar ao usuário que digite um número n (entre 1 e 9)
+
+Processamento:
+
+Calcular o primeiro dígito (dezena): dezena = n - 1
+
+Calcular o segundo dígito (unidade): unidade = 10 - n
+
+Calcular o resultado final: resultado = (dezena × 10) + unidade
+
+Saída de dados:
+
+Exibir o resultado da multiplicação: 9 × n = resultado
+
+Fluxograma:
+
+https://docs.google.com/drawings/d/1arkRd3O3npt4Mw5zdYVNIVoy_A1RfI7h570DDrLXaz4/edit
+
+Pseudocódigo:
+
+INÍCIO
+
+    ESCREVA("Digite um número entre 1 e 9: ")
+    LEIA(n)
+    
+    dezena <- n - 1
+    unidade <- 10 - n
+    resultado <- (dezena * 10) + unidade
+    
+    ESCREVA("9 x ", n, " = ", resultado)
